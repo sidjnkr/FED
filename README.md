@@ -54,9 +54,10 @@ Pagina van een recept
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-
-</details>
+ Afbeeldingen: generieke of onduidelijke alt-tekst
+ Herhaling van dezelfde blokken en koppen
+ Heel veel herhaalde links “Log in” en “Maak een account aan”
+ Context voor acties als “Sla recept op …”
 
 
 
