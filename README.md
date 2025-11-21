@@ -94,9 +94,9 @@ Pagina van een recept
 
   | Sid            | daniel          | Jada    | Annabel        |
   | ---            | ---                | ---          | ---              |
-  | hoe verwerk je ads? | Hoe kan ik makkelijk meerdere hamburger menu’s gebruiken            | Hoe haal ik de tekst meer naar links?    | en dan ik dat    |
-  | hoe maak ik de achtergrondzoals op de echte site? | Font face lijkt niet te werken bij mij | Er staat een svg voor de pijl, maar ik kan het niet vinden, is er een andere maneir? | dit wil ik zeker |
-  | hoe maak ik een zoekbalk?          | Hoe kan ik mijn video in het aan de zijkanten laten wegvagen                | Hoe pas ik de order aan H2 actueel en H3's? ook als ik meerdere heb die anders moeten          | ...              |
+  | hoe verwerk je ads? | Hoe kan ik makkelijk meerdere hamburger menu’s gebruiken            | Hoe haal ik de tekst meer naar links?    | Waarom doet mijn hamburger menu het de ene keer wel en de andere keer niet?    |
+  | hoe maak ik de achtergrondzoals op de echte site? | Font face lijkt niet te werken bij mij | Er staat een svg voor de pijl, maar ik kan het niet vinden, is er een andere maneir? | ⁠hoe zorg ik ervoor dat de navigatie op de index mee schaalt als het scherm groter wordt? |
+  | hoe maak ik een zoekbalk?          | Hoe kan ik mijn video in het aan de zijkanten laten wegvagen                | Hoe pas ik de order aan H2 actueel en H3's? ook als ik meerdere heb die anders moeten          | ⁠hoe zorg ik voor witruimte rond de tekst?&&hoe zet ik de h1 en de p die daarbij hoort in het midden als het niet in een container zit?              |
 
 
   ### Verslag van meeting
