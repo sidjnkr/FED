@@ -92,11 +92,11 @@ Pagina van een recept
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Sid            | student 2          | student 3    | student 4        |
+  | Sid            | daniel          | Jada    | Annabel        |
   | ---            | ---                | ---          | ---              |
-  | hoe verwerk je ads? | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | hoe verwerk je ads? | Hoe kan ik makkelijk meerdere hamburger menu’s gebruiken            | Hoe haal ik de tekst meer naar links?    | en dan ik dat    |
+  | hoe maak ik de achtergrondzoals op de echte site? | Font face lijkt niet te werken bij mij | Er staat een svg voor de pijl, maar ik kan het niet vinden, is er een andere maneir? | dit wil ik zeker |
+  | hoe maak ik een zoekbalk?          | Hoe kan ik mijn video in het aan de zijkanten laten wegvagen                | Hoe pas ik de order aan H2 actueel en H3's? ook als ik meerdere heb die anders moeten          | ...              |
 
 
   ### Verslag van meeting
