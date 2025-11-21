@@ -86,9 +86,9 @@ Pagina van een recept
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
+  het was soms moeilijk om erachter te komen wat nou de meest semantische manier is van code schrijven. Wat goed ging was dat wanneer ik dingetjes opzocht over mijn code dat ik het daarna wel echt goed snapte en ook goed doorhad wat ik aan het doen was ipv dat ik gewoon klakkeloos dingen overnamn van het internet. 
+  
+  
   ### Agenda voor meeting
   samen met je groepje opstellen
 
