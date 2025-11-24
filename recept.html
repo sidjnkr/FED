@@ -12,9 +12,9 @@
 
 	<link rel="icon" type="image/svg+xml" href="images/24logo.jpg">
 </head>
-
+<!-- geen class of id maar nth of type ++ articles zitten in de sections en niet andersom -->
 <body>
-     <section class="utility-bar">
+     <section>
         <ul>
            <li>Registreer in 1 minuut</li>
            <li>Recepten bewaren</li>
@@ -25,7 +25,7 @@
     <header>
         <nav aria-label="Hoofdmenu">
             <a href="index.html" class="logo">
-                <img src="images/24kitchenlogo.png" alt="24Kitchen logo">
+                <img src="images/24kitchenlogo.png" alt="logo van 24Kitchen">
             </a>
         <ul>
             <li>Recepten</li>
@@ -37,52 +37,54 @@
     </header>
     <main id="main">
 
-        <nav class="breadcrumbs" aria-label="Kruimelpad">
-            <ol>
+        <nav aria-label="Kruimelpad">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li>Recepten</li>
-                <li aria-current="page">Oesterzwamburgers met jalapeños</li>
-            </ol>
+                <li>Oesterzwamburgers met jalapeños</li>
+            </ul>
         </nav>
-            <section class="intro-banner">
+            <section>
         <img src="images/desmakenvanoostenrijk.png" alt="Campagnebeeld: De Smaken van Oostenrijk, elke zaterdag om 21:00 op 24Kitchen">
     </section>
        <article>
           <h1>Oesterzwamburgers met jalapeños</h1>
-          <section class="rating" aria-label="Beoordeling">
-    <p>
-        <span aria-hidden="true">★★★★★</span>
-        <span class="visually-hidden">5 van 5 sterren</span>
-        <span class="rating-count">(1)</span>
-    </p>
+          <section aria-label="Beoordeling">
+            <!-- //geen spannetjes gwn losse p -->
+         <!-- geen aria labels meer gebruiken, weet niet zo goed wat het is, andere manier vinden. -->
+        
+        <p>    
+          <span aria-hidden="true">★★★★★</span>  
+          <span>(1)</span>
+        </p>
           </section>
-
+  <!-- geen section zonder heading -->
            <section>
             <p>Deze oesterzwamburgers met jalapeños zijn lekker crispy, spicy en helemaal vegetarisch. Perfect voor wie zin heeft in een snelle, smaakvolle burger met een spicy twist.</p>
            </section>
-            <p class="recipe-time">15 min. voorbereidingstijd</p>
+            <p>15 min. voorbereidingstijd</p>
 
             
              <a href="#bereidingswijze" class="direct-button">Direct naar recept</a>
             
 
-            <section class="recipe-image">
+            <section>
                 <img src="images/burgerfoto.png" alt="oesterzwamburger met jalapeños op een broodje">
-                <button class="save-recipe" aria-label="Sla recept op">❤️ Sla recept op</button>
+                <button aria-label="Sla recept op">❤️ Sla recept op</button>
             </section>
 
-           <section class="chef-info">
+           <section>
             <img src="images/bibiloomans.png" alt="Foto van Bibi Loomans">
-            <p class="chef-naam">Bibi Loomans</p>
-            <blockquote class="chef-quote">
+            <p>Bibi Loomans</p>
+            <blockquote>
                 "Maak het extra smeuïg met een plak cheddar of voeg wat avocado toe voor een frisse tegenhanger van de spicy saus!"
             </blockquote>
            </section>
 
            <section>
-            <h2 id="ingrediënten-kop">Ingrediënten</h2>
+            <h2>Ingrediënten</h2>
             <h3>Voor 4 personen</h3>
-            <ul aria-labelledby="ingrediënten-kop">
+            <ul>
                 <li>100 g bloem</li>
                 <li>1 tl paprikapoeder</li>
                 <li>1 tl uienpoeder</li>
@@ -95,8 +97,12 @@
                 <li>12 jalapeños in pot + sap</li>
                 <li>ijsbergsla</li>
             </ul>
+             
+              <button>VEGETARISCH</button>
+              <button>MAKKELIJK</button>
+              <button>HOOFDGERECHT</button>
            </section>
-           <section id="bereidingswijze">
+           <section>
             <h2>Bereidingswijze</h2>
             <h3>Oesterzwamburgers met jalapeños</h3>
 
@@ -109,17 +115,37 @@
                 <li>Snijd de broodjes open en rooster ze aan de binnenkant.</li>
                 <li>Snijd de ijsbergsla fijn. Beleg de broodjes met de saus, fijngesneden sla, extra jalapeños en de oesterzwamburger.</li>
             </ol>
+            <section>
+                <h3>DIT RECEPT BEWAREN?</h3>
+                 <p>Maak een <a href="Account aanmaken">24Kitchen account</a> aan en bundel al jouw favoriete recepten met een druk op de knop.</p>
+                <button>Maak een account aan ></button>
+            </section>
+            
+            
             <ul>
                 <li>Print Recept</li>
                 <li>Sla recept op</li>
                 <li>Deel op WhatsApp</li>
             </ul>
-           </section>
+        </article>
            <section>
             <h3>Wat vond jij ervan?</h3>
             <p>Heb jij dit recept gemaakt? Of wil je graag iets vragen over dit recept? Laat het weten!</p>
+            <p>0 reacties</p>
            </section>
-      </article>
+
+        <section>
+            <h4>MELD JE AAN EN PRAAT MEE</h4>
+            <p>Deel je ervaring of tips met ons en praat mee met andere 24kitchen fans.</p>
+            <button>Log in></button>
+            <a href="Account aanmaken">Maak een account aan></a>
+        </section>
+       <article>
+        <h3>OOK LEKKER</h3>
+        <section>Nasi goreng met gebakken ei en pindasaus</section>
+        <section>Auberginestoof met linzen</section>
+        <section>Wildzwijnkroketten</section>
+       </article>
     </main>
 
 	<script defer src="scripts/script.js"></script>
