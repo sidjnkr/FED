@@ -203,13 +203,13 @@ Pagina van een recept
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+ ik ben beter geworden in javascript, ik heb een hamburger menu weten te maken en een carousel. Ook heb ik voor het eerst een site responsive gemaakt wat ook erg goed ging. En heel erg meeviel met hoe moeilijk ik dacht dat het zou zijn. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  maar toch ben ik ook wel een beetje gefaald met de carousel, de carousel met 1 kaartje per keer, dus voor mobile, ging goed. maar toen moest ik een grotere carousel maken en dat lukte me gewoon niet. dus heb ik een andere manier gevonden om het er alsnog goeduit te laten zien maar helaas niet in een carousel :(
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
