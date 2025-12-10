@@ -27,32 +27,64 @@
     </section>
 
     
-    <header>
-        <nav aria-label="Hoofdmenu">
-            <a href="index.html">
-                <img src="images/24kitchenlogo.svg" alt="logo van 24Kitchen">
-            </a>
+<header>
+  <!-- open-knop BUITEN de nav -->
+  <button type="button" aria-label="Open menu" aria-expanded="false">☰</button>
 
-        <form aria-label="Zoeken">
-            <input type="search" placeholder="Wat wil je (w)eten?">
-        </form>
+  <nav aria-label="Hoofdmenu">
+    <a href="index.html">
+      <img src="images/24kitchenlogo.svg" alt="logo van 24Kitchen">
+    </a>
 
-        <button type="button" aria-label="Open menu">
-        ☰
-        </button>
+    <ul>
+      <li><a href="#">Recepten</a></li>
+      <li><a href="#">Populair</a></li>
+      <li><a href="#">Thema's</a></li>
+    </ul>
 
-            <ul>
-                <li><a href="#">Recepten</a></li>
-                <li><a href="#">Populair</a></li>
-                <li><a href="#">Thema's</a></li>
-                <li><a href="#">24Kitchen op TV</a></li>
-            </ul>
-        </nav>
-    </header>
+    <form role="search">
+        <label class="visually-hidden" for="site-search">Zoek in alle recepten</label>
+        <input id="site-search" type="search" placeholder="Wat wil je (w)eten?">
+    </form>
+
+    <!-- light/dark modus -->
+    <form class="theme-switcher" aria-label="Thema kiezen">
+   <fieldset>
+    <legend class="visually-hidden">Kleurenmodus</legend>
+
+    <label>
+      <input type="radio" name="theme" value="auto" checked>
+      automatisch
+    </label>
+
+    <label>
+      <input type="radio" name="theme" value="light">
+      licht
+    </label>
+
+    <label>
+      <input type="radio" name="theme" value="dark">
+      donker
+    </label>
+  </fieldset>
+</form>
+
+
+    <a href="#">24Kitchen op TV</a>
+
+    <button type="button" aria-label="Sluit menu">✕</button>
+
+  </nav>
+</header>
 
     <aside>
         <h2 class="visually-hidden">Campagnebanner</h2>
-        <img src="images/desmakenvanoostenrijk.jpg"alt="De smaken van Oostenrijk, elke zaterdag om 7 uur 's avonds">
+        <img src="images/debrigade768.jpg"
+            alt="De Brigade seizoen 2, elke werkdag om 17:00 uur op 24Kitchen">
+
+        <img src="images/debrigade.jpg"
+            alt=""
+            aria-hidden="true">
     </aside>
 
 <main id="main">
@@ -69,17 +101,17 @@
         <section>
             <h2>Nu & straks op TV</h2>
             <a href="#">
-                <img src="images/dannyjansen.jpg" alt="Link naar aflevering van Wokking lekker met Danny Jansen">
+                <img src="images/dannyjansen.jpg" alt="Aflevering van Wokking lekker met Danny Jansen">
             </a>
-                <p><time datetime="16:00 - 16:35"></time>Wokking lekker</p>
-                <p><time datetime="16:35 - 16:55"></time>Dagelijkse Kost</p>
-            <a href="#">Naar de TV TV-gids</a>
+                <p><time datetime="16:00 - 16:35"><span>16:00 - 16:35 </span></time>Wokking lekker</p>
+                <p><time datetime="16:35 - 16:55"><span>16:35 - 16:55 </span></time>Dagelijkse Kost</p>
+            <a href="#">Naar de TV-gids ></a>
         </section>
 
         <section>
             <h2>Plan vooruit met ons weekmenu</h2>
             <p>Kook je liever vegetarisch? Of liever met vis of vlees? Ons weekmenu geeft je dagelijkse kookinspiratie.</p>
-            <a href="#">Bekijk het weekmenu</a>
+            <a href="#">Bekijk het weekmenu ></a>
         </section>
 
         <img src="images/saladefoto.png" alt="Foto van Satay salade met frietjes">
@@ -143,7 +175,7 @@
                 </a>
             </li>    
         </ul>
-        <button>Toon meer</button>
+        <button><span>Toon meer</span></button>
     </aside>
 
     <aside>
@@ -155,16 +187,18 @@
                          <h3><a href="#">Chocolade Macarons</a></h3>
                          <p>60 min ★ 3,7</p>
                         <img src="images/rudolph-profielfoto.jpg" alt="Foto van Rudolph van Veen">
-                        <p>Een recept van Rudolph van Veen</p>
+                        <p>Een recept van <span>Rudolp van Veen</span></p> 
                     </div>
 
                     <img src="images/chocolade-macarons.png" alt="Chocolade Macarons">
 
-                    <button>
+                    <button aria-label="Sla recept op in favorieten">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
                             <use href="#icon-heart"></use>
                             </svg>
                     </button>
+                    <button type="button" aria-label="Volgende recept">›</button>
+                    <button type="button" aria-label="Vorig recept">‹</button>
                 </li>
 
                 <li>
@@ -172,15 +206,18 @@
                         <h3><a href="#">Kremsnita</a></h3>
                             <p>60 min ★ 3,2</p>
                             <img src="images/rudolph-profielfoto.jpg" alt="Foto van Rudolph van Veen">
-                            <p>Een recept van Rudolp van Veen</p>
+                            <p>Een recept van <span>Rudolp van Veen</span></p> 
                     </div>
 
                     <img src="images/kremsnita.png" alt="Kremsnita">
-                    <button>
+
+                   <button aria-label="Sla recept op in favorieten">
                         <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
                         <use href="#icon-heart"></use>
                         </svg>
                     </button>
+                    <button type="button" aria-label="Volgende recept">›</button>
+                    <button type="button" aria-label="Vorig recept">‹</button>
                 </li>
 
                 <li>
@@ -188,70 +225,82 @@
                         <h3><a href="#">Pride Taart</a></h3>
                             <p>15 min ★ 5</p>
                             <img src="images/rudolph-profielfoto.jpg" alt="Foto van Rudolph van Veen">
-                            <p>Een recept van Rudolp van Veen</p> 
+                            <p>Een recept van <span>Rudolp van Veen</span></p> 
                     </div>
                     <img src="images/pride-taart.png" alt="Pride Taart">
-                    <button>
+
+                    <button aria-label="Sla recept op in favorieten">
                         <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
                         <use href="#icon-heart"></use>
                         </svg>
                     </button>
+                    <button type="button" aria-label="Volgende recept">›</button>
+                    <button type="button" aria-label="Vorig recept">‹</button>
                 </li>
                  
                 <li>
                 
                     <div>
-                         <h3><a href="#">Chocolade Macarons</a></h3>
-                         <p>60 min ★ 3,7</p>
+                         <h3><a href="#">Saotosoep</a></h3>
+                         <p>60 min ★ 3,8</p>
                         <img src="images/rudolph-profielfoto.jpg" alt="Foto van Rudolph van Veen">
-                        <p>Een recept van Rudolph van Veen</p>
+                        <p>Een recept van <span>Rudolp van Veen</span></p> 
                     </div>
 
-                    <img src="images/chocolade-macarons.png" alt="Chocolade Macarons">
+                    <img src="images/saotosoep.jpg" alt="foto van de saotosoep">
 
-                    <button>
+                    <button aria-label="Sla recept op in favorieten">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
                             <use href="#icon-heart"></use>
                             </svg>
                     </button>
+                    <button type="button" aria-label="Volgende recept">›</button>
+                    <button type="button" aria-label="Vorig recept">‹</button>
                 </li>
 
                 <li>
                     <div>
-                        <h3><a href="#">Kremsnita</a></h3>
-                            <p>60 min ★ 3,2</p>
+                        <h3><a href="#">Courgettesoep</a></h3>
+                            <p>20 min ★ 3,9</p>
                             <img src="images/rudolph-profielfoto.jpg" alt="Foto van Rudolph van Veen">
-                            <p>Een recept van Rudolp van Veen</p>
+                            <p>Een recept van <span>Rudolp van Veen</span></p> 
                     </div>
 
-                    <img src="images/kremsnita.png" alt="Kremsnita">
-                    <button>
+                    <img src="images/courgettesoep.jpg" alt="foto van de courgettesoep">
+
+                   <button aria-label="Sla recept op in favorieten">
                         <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
                         <use href="#icon-heart"></use>
                         </svg>
                     </button>
+                    <button type="button" aria-label="Volgende recept">›</button>
+                    <button type="button" aria-label="Vorig recept">‹</button>
                 </li>
 
                 <li>
                     <div>
-                        <h3><a href="#">Pride Taart</a></h3>
-                            <p>15 min ★ 5</p>
+                        <h3><a href="#">Zoete aardappel friet uit de oven</a></h3>
+                            <p>10 min ★ 3,1</p>
                             <img src="images/rudolph-profielfoto.jpg" alt="Foto van Rudolph van Veen">
-                            <p>Een recept van Rudolp van Veen</p> 
+                            <p>Een recept van <span>Rudolp van Veen</span></p> 
                     </div>
-                    <img src="images/pride-taart.png" alt="Pride Taart">
-                    <button>
+                    <img src="images/zoeteaardappel.jpg" alt="Foto van de zoete aardappel friet uit de oven">
+
+                    <button aria-label="Sla recept op in favorieten">
                         <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
                         <use href="#icon-heart"></use>
                         </svg>
                     </button>
+                    <button type="button" aria-label="Volgende recept">›</button>
+                    <button type="button" aria-label="Vorig recept">‹</button>
                 </li>
             </ul>
+            <div class="carousel-dots"></div>
     </aside>
 
 </main>
 
-	<footer>
+<footer>
     <section>
         <h2>Nieuwsbrief</h2>
 
@@ -281,10 +330,30 @@
          <h2><img src="images/24kitchenlogo.svg" alt="24Kitchen informatie"> </h2>
 
         <ul>
-            <li><a href="#"><svg><use href="#icon-youtube"></use></svg></a></li>
-            <li><a href="#"><svg><use href="#icon-tiktok"></use></svg></a></li>
-            <li><a href="#"><svg><use href="#icon-facebook"></use></svg></svg></a></li>
-            <li><a href="#"><svg><use href="#icon-instagram"></use></svg></a></li>
+            <li>
+                <a href="#">
+                    <svg aria-hidden="true"><use href="#icon-youtube"></use></svg>
+                    <span class="visually-hidden">24Kitchen op YouTube</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg aria-hidden="true"><use href="#icon-tiktok"></use></svg>
+                    <span class="visually-hidden">24Kitchen op TikTok</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg aria-hidden="true"><use href="#icon-facebook"></use></svg>
+                    <span class="visually-hidden">24Kitchen op Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg aria-hidden="true"><use href="#icon-instagram"></use></svg>
+                    <span class="visually-hidden">24Kitchen op Instagram</span>
+                </a>
+            </li>
         </ul>
     </nav>
 
@@ -313,7 +382,7 @@
                 <p>Rudolph's Bakery: De Jonge Bakkers<time datetime="14:55 - 15:25">14:55 - 15:25</time></p>
             </li>
         </ul>
-        <a href="#">Naar de TV-gids</a>
+        <a href="#">Naar de TV-gids ></a>
     </nav>
 
 
@@ -330,8 +399,6 @@
     </nav>
 
 </footer>
-
-<script defer src="scripts/script.js"></script>
 <!-- SVG ICONS -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
 
@@ -375,6 +442,6 @@
   </symbol>
 
 </svg>
-
+<script src="scripts/script.js"></script>
 </body>
 </html>
