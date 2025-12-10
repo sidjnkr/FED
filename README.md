@@ -33,8 +33,7 @@ responsiven</details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-[  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-](https://www.24kitchen.nl/)   24Kitchen
+(https://www.24kitchen.nl/)   24Kitchen
   #### Screenshot(s) van de eerste pagina (small screen): 
  Homepage
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
