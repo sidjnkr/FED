@@ -119,7 +119,7 @@ Pagina van een recept
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ oke in week 3 kwam ik erachter dat de dingen die me de week ervoor werden verteld over hoe en waar articles en sections werken dat dat niet zo was (ik deed het eerst wel goed) dus ik moest dat weer veranderen. daarnaast ging het met de css goed en had ik daar weinig problemen mee. Ik ben nog niet begonnen met responsiveness, aangezien ik eerst de css voor de desktop had gemaatk terwijl ik moest beginnen met de css voor mobile. 
 
 
   ### Agenda voor meeting
@@ -166,7 +166,7 @@ Pagina van een recept
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  week 4 laatste week voor het eindgesprek en gelukkig komt alles bij elkaar. ik moet nog wel even aanpoten om alles op tijd af te krijgen aanezien ik ook nog javascript aan de slag moet gaan en de responsivenesss erin moet verwerken. En ik weet van mezelf dat ik javascript best ingewikkeld vind dus dat word zeker wel 1 of 2 dagen dik aan de slag. Over de responsiveness maak  ik me niet zoveel zorgen want ik denk dat ik css nu wel een redelijk onder de knie heb. 
 
 
   ### Agenda voor meeting
@@ -227,7 +227,7 @@ Pagina van een recept
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-areas
   2. bron 2
   3. ...
 
